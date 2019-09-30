@@ -5,7 +5,7 @@
 For more info about the game see: https://gym.openai.com/envs/FrozenLake-v0/
 
 
-## How to compile:
+## How to run:
 ```bash
 python3 frozen.py
 ```
