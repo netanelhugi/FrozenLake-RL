@@ -1,6 +1,6 @@
 # FrozenLake-RL
 
-## Q-Learning implementaion from Frozen Lake game.
+## Q-Learning implementaion for Frozen Lake game.
 
 For more info about the game see: https://gym.openai.com/envs/FrozenLake-v0/
 
