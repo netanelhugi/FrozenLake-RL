@@ -111,7 +111,7 @@ if ((i + 1) % 10000 == 0):
     winCounter = 0
 
 print(" ")
-print("////SUMMERY////")
+print("////LEARNING SUMMERY////")
 
 print("wins: %d / %d" % (total, games))
 print("Learning success: " + str(sum(rewards) / games))
@@ -119,7 +119,7 @@ print("Learning success: " + str(sum(rewards) / games))
 print(" ")
 print(" ")
 
-print(Q_learning_table)
+#print(Q_learning_table)
 
 
 playingRewards = 0
@@ -149,7 +149,7 @@ for game in range(playGameNum):
         state = newState
 
 print(" ")
-print("playing success: %d / %d" %(playingRewards,playGameNum))
+print("After learning success: %d / %d" %(playingRewards,playGameNum))
 
 # env.close()
 
